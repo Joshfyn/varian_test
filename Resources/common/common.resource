@@ -29,4 +29,3 @@ click login and provide credentials
     Fill text       ${pwd_input}            ${credential.password}
     click           ${login_btn}
     Wait For Elements State       ${login_btn}      state=visible
-

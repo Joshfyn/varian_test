@@ -1,3 +1,4 @@
 ## requirement dependency for robot framework setup
 robotframework          == 6.0.1
 robotframework-browser  == 15.2.0
+pyyaml                  == 6.0

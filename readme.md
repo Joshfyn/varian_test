@@ -22,4 +22,16 @@ robot -d output -A Resources/env/demo.env -i negative test/login.robot
 
 ```
 
+It is also easier to run by using docker. Ensure docker is running and execute
+```
+docker build -t varian_test .
 
+```
+
+```
+docker run --rm \
+  --volume "$PWD":/home/robot \
+  --network="host" \
+  varian_test \
+  bash -c "robot -d output -A Resources/env/demo.env test/login.robot"
+```
