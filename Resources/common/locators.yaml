@@ -1,0 +1,11 @@
+# Locators
+home_login_btn:            "//button[@type='button']//div//div[@class='ds-button__label' and contains(text(), 'Log')]"
+login_btn:                 "//input[@value='Log in']"
+username_input:            "//input[@id='username']"
+pwd_input:                 "//input[@id='password']"
+
+# Placeholder
+page_title:           "//h1[@class='landing-title' and contains(text(), '{}')]"
+registration_link:    "//div[@class='ds-button__label' and contains(text(), '{}')]"
+error_message_invalid_credential:    "//span[@id='input-error' and contains(text(), '{}')]"
+language_selection:   "//div[@role='combobox']"

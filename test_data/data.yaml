@@ -1,0 +1,6 @@
+invalid_email:
+  email:      "joshua.com"
+  password:   "testpwd"
+non_existing_user:
+  email:      "adeegbejoshua@gmail.com"
+  password:   "testpwd1234#@"
